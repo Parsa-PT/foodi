@@ -11,7 +11,7 @@ type ButtonProp ={
 const Button = ({title , style , svg} : ButtonProp) => {
   return (
     <div>
-      <button className={` bg-btnColor flex justify-center  text-xl items-center gap-4 text-white w-[179px] h-[60px] rounded-[40px] ${style}`}>
+      <button className={` bg-btnColor w-[100px] h-[40px] text-base md:text-xl md:w-[179px] md:h-[60px] flex justify-center   items-center gap-4 text-white  rounded-[40px] ${style}`}>
         {svg && (
             <Image src='/icons/phone.svg'   width={25} height={20} alt='phone'/>
         )}

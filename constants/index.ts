@@ -104,6 +104,93 @@ export const SpecialDishes = [
     },
     
 ]
+export const SpecialDishes2 = [
+    {
+        id:1,
+        title: 'Fattoush salad',
+        desc : 'Description of the item',
+        price : '24.00',
+        vote : '4.9',
+        pic:'/food1.png'
+    },
+    {
+        id:1,
+        title: 'Fattoush salad',
+        desc : 'Description of the item',
+        price : '24.00',
+        vote : '4.9',
+        pic:'/food1.png'
+    },
+    {
+        id:1,
+        title: 'Fattoush salad',
+        desc : 'Description of the item',
+        price : '24.00',
+        vote : '4.9',
+        pic:'/food1.png'
+    },
+    {
+        id:1,
+        title: 'Fattoush salad',
+        desc : 'Description of the item',
+        price : '24.00',
+        vote : '4.9',
+        pic:'/food1.png'
+    },
+    {
+        id:1,
+        title: 'Fattoush salad',
+        desc : 'Description of the item',
+        price : '24.00',
+        vote : '4.9',
+        pic:'/food1.png'
+    },
+    {
+        id:1,
+        title: 'Fattoush salad',
+        desc : 'Description of the item',
+        price : '24.00',
+        vote : '4.9',
+        pic:'/food1.png'
+    },
+    {
+        id:1,
+        title: 'Fattoush salad',
+        desc : 'Description of the item',
+        price : '24.00',
+        vote : '4.9',
+        pic:'/food1.png'
+    },
+    {
+        id:1,
+        title: 'Fattoush salad',
+        desc : 'Description of the item',
+        price : '24.00',
+        vote : '4.9',
+        pic:'/food1.png'
+    },
+    
+
+    
+    
+    {
+        id:2,
+        title: 'Vegetable salad',
+        desc : 'Description of the item',
+        price : '24.00',
+        vote : '4.9',
+        pic:'/food2.png'
+    },
+    {
+        id:3,
+        title: 'Egg vegi salad',
+        desc : 'Description of the item',
+        price : '24.00',
+        vote : '4.9',
+        pic:'/food3.png'
+    },
+    
+]
 
 
 export const People = [
@@ -226,4 +313,37 @@ export const footerLinks = {
         },
     ]
 }
+
+export const menuItems = [
+    {
+        id:1,
+        pic:'/icons/burger.svg',
+        title: 'Burgur'
+    },
+    {
+        id:2,
+        pic:'/icons/pizza.svg',
+        title: 'Pizza'
+    },
+    {
+        id:3,
+        pic:'/icons/sandwich.svg',
+        title: 'Sandwich'
+    },
+    {
+        id:4,
+        pic:'/icons/salad.svg',
+        title: 'Salad'
+    },
+    {
+        id:5,
+        pic:'/icons/dessert.svg',
+        title: 'Dessert'
+    },
+    {
+        id:6,
+        pic:'/icons/drink.svg',
+        title: 'Drink'
+    },
+]
     

@@ -16,8 +16,17 @@ html{
 }
 
 
+
+.bgcover{
+  background-image: url('/pizza.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
 .btnShadow{
-  box-shadow: -2px 22px 38px 0px rgba(142, 255, 154, 0.50);
+  box-shadow: -2px 22px 38px 0px rgba(142, 255, 153, 0.586);
 }
 
 .dropShadow{

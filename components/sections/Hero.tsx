@@ -2,6 +2,7 @@
 import React from 'react'
 import Button from '../Button'
 import Image from 'next/image'
+import Link from 'next/link'
 
 
 const Hero = () => {
@@ -16,7 +17,9 @@ const Hero = () => {
                 </p>
 
                 <div className=' flex justify-center items-center gap-5'>
-                    <Button title='Order now' style='btnShadow' />
+                    <Link href='/products'>
+                        <Button title='Order now' style='btnShadow' />
+                    </Link>
                     <h1 className=' xl:text-[26px]'>Watch video</h1>
                     <div className=' flex justify-center items-center bg-white rounded-full w-[44px] h-[44px] lg:w-[80px] lg:h-[80px] dropShadow '>
                             <Image src='/icons/play.svg' alt='play' width={20} height={20}/>
