@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 const Hero = () => {
   return (
-    <section className=' relative flex flex-col gap-10 lg:flex-row lg:px-[4rem] lg:py-[6rem] max-w-[1582px] justify-center items-center w-full px-5 py-7 '>
+    <section className='flex-test'>
             <div className=' flex flex-col lg:items-start  gap-10'>
                 <h1 className='text-[35px] lg:text-[40px] xl:text-[52px] 2xl:text-[62px] font-extrabold'>
                 Dive into Delights Of Delectable <span className='  text-btnColor'>Food</span>

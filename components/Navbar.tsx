@@ -18,7 +18,7 @@ const Navbar = () => {
     <div>
     <nav className=' flex  justify-center py-3 px-6 '>
         <div className=' w-full lg:max-w-[1080px] xl:max-w-[1420px] flex justify-between items-center '>
-        <div>
+        <div className=' cursor-pointer' onClick={()=> {window.location.assign('/')}}>
 
                 <Image src='/icons/logo.svg' width={100} height={50} alt='logo'/>
             
@@ -38,7 +38,9 @@ const Navbar = () => {
         <div className=' hidden  lg:flex gap-4'>
             <Image src='/icons/search.svg' width={30} height={30} alt='search'/>
             <Image src='/icons/cart.svg' width={30} height={30} alt='search'/>
-            <Button title='Login' />
+            <Link href='/register/login'>
+                 <Button title='Login' />
+            </Link>
         </div>
         </div>
 

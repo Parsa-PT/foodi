@@ -6,7 +6,7 @@ import { ServicesItem } from '@/constants'
 
 const Services = () => {
   return (
-    <section className=' relative flex mb-[8rem]  flex-col gap-10 lg:px-[4rem] lg:py-[6rem] max-w-[1382px] justify-center items-center w-full px-5 py-7 '>
+    <section className=' flex-test '>
             <div className=' flex flex-col lg:flex-row gap-8 lg:gap-[4rem]'>
 
                 <div className=' flex flex-col gap-7 lg:max-w-[452px] xl:max-w-[552px] justify-center'>
