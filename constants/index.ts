@@ -101,6 +101,11 @@ export const SpecialDishes = [
     },
     
 ]
+
+
+
+/// Menu bar
+
 export const SpecialDishes2 = [
     {
         id:1,
@@ -503,6 +508,9 @@ export const People = [
     
 ]
 
+
+
+
 export const ServicesItem = [
     {
         id:1,
@@ -529,6 +537,9 @@ export const ServicesItem = [
         pic : '/icons/gift.svg'
     },
 ]
+
+
+
 
 export const footerLinks = {
     useFull : [
@@ -606,6 +617,9 @@ export const footerLinks = {
     ]
 }
 
+
+
+
 export const menuItems = [
     {
         id:1,
@@ -652,3 +666,28 @@ export const menuItems = [
     },
 ]
     
+
+
+export const cartItems = [
+    {
+        id:1,
+        title:'Fattoush salad',
+        price:'24.00',
+        qty:4,
+        pic:'/food1.png'
+    },
+    {
+        id:2,
+        title:'Fattoush salad',
+        price:'54.00',
+        qty:3,
+        pic:'/food2.png'
+    },
+    {
+        id:3,
+        title:'Fattoush salad',
+        price:'34.00',
+        qty:1,
+        pic:'/food3.png'
+    },
+]

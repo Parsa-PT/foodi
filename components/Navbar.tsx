@@ -35,12 +35,19 @@ const Navbar = () => {
                 </li>
             </ul>
         </div>
-        <div className=' hidden  lg:flex gap-4'>
-             <Image src='/icons/profile.svg' width={30} height={30} alt='menu'/>
-            <Image src='/icons/cart.svg' width={30} height={30} alt='search'/>
-            <Link href='/register/login'>
+        <div className='   lg:flex gap-4'>
+            <div className=' flex justify-center gap-2'>
+            <Image src='/icons/profile.svg' width={30} height={30} alt='profile'/>
+             <Link className=' flex justify-center' href='/cart'> 
+                 <Image src='/icons/cart.svg' width={30} height={30} alt='cart'/>
+             </Link>
+            </div>
+             <div className=' hidden lg:flex'>
+             <Link href='/register/login'>
                  <Button title='Login' />
             </Link>
+             </div>
+            
         </div>
         </div>
 
@@ -49,8 +56,8 @@ const Navbar = () => {
         <div onClick={()=> setNav(!nav)} >
         <Image src='/icons/menu.svg' width={40} height={30} alt='menu'/>
         </div>
-        <Image src='/icons/profile.svg' width={30} height={30} alt='menu'/>
-        <Image src='/icons/cart.svg' width={20} height={30} alt='search'/>
+        {/* <Image src='/icons/profile.svg' width={30} height={30} alt='menu'/>
+        <Image src='/icons/cart.svg' width={20} height={30} alt='search'/> */}
         </div>
 
      

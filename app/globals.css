@@ -38,6 +38,10 @@ html{
   overflow-x: scroll;
 }
 
+.cartShadow{
+  box-shadow: 7px 13px 39.3px 0px rgba(190, 255, 140, 0.55);
+}
+
 
 @layer utilities {
 
