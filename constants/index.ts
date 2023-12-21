@@ -83,9 +83,6 @@ export const SpecialDishes = [
         pic:'/food1.png'
     },
     
-
-    
-    
     {
         id:2,
         title: 'Vegetable salad',
@@ -137,41 +134,6 @@ export const SpecialDishes2 = [
         vote : '4.9',
         pic:'/food1.png'
     },
-    {
-        id:1,
-        title: 'Fattoush salad',
-        desc : 'Description of the item',
-        price : '24.00',
-        vote : '4.9',
-        pic:'/food1.png'
-    },
-    {
-        id:1,
-        title: 'Fattoush salad',
-        desc : 'Description of the item',
-        price : '24.00',
-        vote : '4.9',
-        pic:'/food1.png'
-    },
-    {
-        id:1,
-        title: 'Fattoush salad',
-        desc : 'Description of the item',
-        price : '24.00',
-        vote : '4.9',
-        pic:'/food1.png'
-    },
-    {
-        id:1,
-        title: 'Fattoush salad',
-        desc : 'Description of the item',
-        price : '24.00',
-        vote : '4.9',
-        pic:'/food1.png'
-    },
-    
-
-    
     
     {
         id:2,
@@ -190,6 +152,336 @@ export const SpecialDishes2 = [
         pic:'/food3.png'
     },
     
+]
+export const SpecialBurger = [
+    {
+        id:1,
+        title: 'Fattoush salad',
+        desc : 'Description of the item',
+        price : '24.00',
+        vote : '4.9',
+        pic:'/burgerpic.png'
+    },
+    {
+        id:1,
+        title: 'Fattoush salad',
+        desc : 'Description of the item',
+        price : '24.00',
+        vote : '4.9',
+        pic:'/burgerpic.png'
+    },
+    {
+        id:1,
+        title: 'Fattoush salad',
+        desc : 'Description of the item',
+        price : '24.00',
+        vote : '4.9',
+        pic:'/burgerpic.png'
+    },
+    {
+        id:1,
+        title: 'Fattoush salad',
+        desc : 'Description of the item',
+        price : '24.00',
+        vote : '4.9',
+        pic:'/burgerpic.png'
+    },
+    {
+        id:1,
+        title: 'Fattoush salad',
+        desc : 'Description of the item',
+        price : '24.00',
+        vote : '4.9',
+        pic:'/burgerpic.png'
+    },
+    {
+        id:1,
+        title: 'Fattoush salad',
+        desc : 'Description of the item',
+        price : '24.00',
+        vote : '4.9',
+        pic:'/burgerpic.png'
+    },
+    {
+        id:1,
+        title: 'Fattoush salad',
+        desc : 'Description of the item',
+        price : '24.00',
+        vote : '4.9',
+        pic:'/burgerpic.png'
+    },
+    {
+        id:1,
+        title: 'Fattoush salad',
+        desc : 'Description of the item',
+        price : '24.00',
+        vote : '4.9',
+        pic:'/burgerpic.png'
+    },
+]
+export const SpecialSandwich = [
+    {
+        id:1,
+        title: 'Fattoush salad',
+        desc : 'Description of the item',
+        price : '24.00',
+        vote : '4.9',
+        pic:'/sandwichpic.jpeg'
+    },
+    {
+        id:1,
+        title: 'Fattoush salad',
+        desc : 'Description of the item',
+        price : '24.00',
+        vote : '4.9',
+        pic:'/sandwichpic.jpeg'
+    },
+    {
+        id:1,
+        title: 'Fattoush salad',
+        desc : 'Description of the item',
+        price : '24.00',
+        vote : '4.9',
+        pic:'/sandwichpic.jpeg'
+    },
+    {
+        id:1,
+        title: 'Fattoush salad',
+        desc : 'Description of the item',
+        price : '24.00',
+        vote : '4.9',
+        pic:'/sandwichpic.jpeg'
+    },
+    {
+        id:1,
+        title: 'Fattoush salad',
+        desc : 'Description of the item',
+        price : '24.00',
+        vote : '4.9',
+        pic:'/sandwichpic.jpeg'
+    },
+    {
+        id:1,
+        title: 'Fattoush salad',
+        desc : 'Description of the item',
+        price : '24.00',
+        vote : '4.9',
+        pic:'/sandwichpic.jpeg'
+    },
+    {
+        id:1,
+        title: 'Fattoush salad',
+        desc : 'Description of the item',
+        price : '24.00',
+        vote : '4.9',
+        pic:'/sandwichpic.jpeg'
+    },
+    {
+        id:1,
+        title: 'Fattoush salad',
+        desc : 'Description of the item',
+        price : '24.00',
+        vote : '4.9',
+        pic:'/sandwichpic.jpeg'
+    },
+]
+export const SpecialPizza = [
+    {
+        id:1,
+        title: 'Fattoush salad',
+        desc : 'Description of the item',
+        price : '24.00',
+        vote : '4.9',
+        pic:'/pizzapic.webp'
+    },
+    {
+        id:1,
+        title: 'Fattoush salad',
+        desc : 'Description of the item',
+        price : '24.00',
+        vote : '4.9',
+        pic:'/pizzapic.webp'
+    },
+    {
+        id:1,
+        title: 'Fattoush salad',
+        desc : 'Description of the item',
+        price : '24.00',
+        vote : '4.9',
+        pic:'/pizzapic.webp'
+    },
+    {
+        id:1,
+        title: 'Fattoush salad',
+        desc : 'Description of the item',
+        price : '24.00',
+        vote : '4.9',
+        pic:'/pizzapic.webp'
+    },
+    {
+        id:1,
+        title: 'Fattoush salad',
+        desc : 'Description of the item',
+        price : '24.00',
+        vote : '4.9',
+        pic:'/pizzapic.webp'
+    },
+    {
+        id:1,
+        title: 'Fattoush salad',
+        desc : 'Description of the item',
+        price : '24.00',
+        vote : '4.9',
+        pic:'/pizzapic.webp'
+    },
+    {
+        id:1,
+        title: 'Fattoush salad',
+        desc : 'Description of the item',
+        price : '24.00',
+        vote : '4.9',
+        pic:'/pizzapic.webp'
+    },
+    {
+        id:1,
+        title: 'Fattoush salad',
+        desc : 'Description of the item',
+        price : '24.00',
+        vote : '4.9',
+        pic:'/pizzapic.webp'
+    },
+]
+export const SpecialDessert = [
+    {
+        id:1,
+        title: 'Fattoush salad',
+        desc : 'Description of the item',
+        price : '24.00',
+        vote : '4.9',
+        pic:'/dessert.png'
+    },
+    {
+        id:1,
+        title: 'Fattoush salad',
+        desc : 'Description of the item',
+        price : '24.00',
+        vote : '4.9',
+        pic:'/dessert.png'
+    },
+    {
+        id:1,
+        title: 'Fattoush salad',
+        desc : 'Description of the item',
+        price : '24.00',
+        vote : '4.9',
+        pic:'/dessert.png'
+    },
+    {
+        id:1,
+        title: 'Fattoush salad',
+        desc : 'Description of the item',
+        price : '24.00',
+        vote : '4.9',
+        pic:'/dessert.png'
+    },
+    {
+        id:1,
+        title: 'Fattoush salad',
+        desc : 'Description of the item',
+        price : '24.00',
+        vote : '4.9',
+        pic:'/dessert.png'
+    },
+    {
+        id:1,
+        title: 'Fattoush salad',
+        desc : 'Description of the item',
+        price : '24.00',
+        vote : '4.9',
+        pic:'/dessert.png'
+    },
+    {
+        id:1,
+        title: 'Fattoush salad',
+        desc : 'Description of the item',
+        price : '24.00',
+        vote : '4.9',
+        pic:'/dessert.png'
+    },
+    {
+        id:1,
+        title: 'Fattoush salad',
+        desc : 'Description of the item',
+        price : '24.00',
+        vote : '4.9',
+        pic:'/dessert.png'
+    },
+]
+export const SpecialDrink = [
+    {
+        id:1,
+        title: 'Fattoush salad',
+        desc : 'Description of the item',
+        price : '24.00',
+        vote : '4.9',
+        pic:'/drink2.png'
+    },
+    {
+        id:1,
+        title: 'Fattoush salad',
+        desc : 'Description of the item',
+        price : '24.00',
+        vote : '4.9',
+        pic:'/drink2.png'
+    },
+    {
+        id:1,
+        title: 'Fattoush salad',
+        desc : 'Description of the item',
+        price : '24.00',
+        vote : '4.9',
+        pic:'/drink2.png'
+    },
+    {
+        id:1,
+        title: 'Fattoush salad',
+        desc : 'Description of the item',
+        price : '24.00',
+        vote : '4.9',
+        pic:'/drink2.png'
+    },
+    {
+        id:1,
+        title: 'Fattoush salad',
+        desc : 'Description of the item',
+        price : '24.00',
+        vote : '4.9',
+        pic:'/drink2.png'
+    },
+    {
+        id:1,
+        title: 'Fattoush salad',
+        desc : 'Description of the item',
+        price : '24.00',
+        vote : '4.9',
+        pic:'/drink2.png'
+    },
+    {
+        id:1,
+        title: 'Fattoush salad',
+        desc : 'Description of the item',
+        price : '24.00',
+        vote : '4.9',
+        pic:'/drink2.png'
+    },
+    {
+        id:1,
+        title: 'Fattoush salad',
+        desc : 'Description of the item',
+        price : '24.00',
+        vote : '4.9',
+        pic:'/drink2.png'
+    },
 ]
 
 
@@ -319,35 +611,35 @@ export const menuItems = [
         id:1,
         pic:'/icons/burger.svg',
         title: 'Burgur',
-        href:'/products/burgers',
+        href:'#burger',
         active1: 'burger',
     },
     {
         id:2,
         pic:'/icons/pizza.svg',
         title: 'Pizza',
-        href:'/products/burger',
+        href:'#pizza',
         active2:  'pizza',
     },
     {
         id:3,
         pic:'/icons/sandwich.svg',
         title: 'Sandwich',
-        href:'/products/burger',
+        href:'#sandwich',
         active3:  'sand',
     },
     {
         id:4,
         pic:'/icons/salad.svg',
         title: 'Salad',
-        href:'/products/burger',
+        href:'#salad',
         active4:  'salad',
     },
     {
         id:5,
         pic:'/icons/dessert.svg',
         title: 'Dessert',
-        href:'/products/burger',
+        href:'#dessert',
         active5:  'dessert',
     },
 
@@ -355,7 +647,7 @@ export const menuItems = [
         id:6,
         pic:'/icons/drink.svg',
         title: 'Drink',
-        href:'/products/burger',
+        href:'#drink',
         active6:  'drink',
     },
 ]

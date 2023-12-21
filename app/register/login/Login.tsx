@@ -8,10 +8,10 @@ const Login = () => {
   return (
     <section className=' relative flex flex-col gap-10 px-[3rem] py-[6rem] lg:flex-row lg:px-[4rem] lg:py-[6rem] max-w-[1482px] justify-center items-center w-full '>
         <div className=' w-full flex-col-reverse   flex lg:flex-row-reverse justify-between  bg-[#18262F] dropShadow'>
-
-            <div className=' lg:w-[140%]'>
-                <Image src='/pizza.jpg' alt='pizza' width={1111} height={1111}/>
-            </div>
+        <div className="bgcover lg:w-[140%]"/>
+         <div className="lg:hidden">
+         <Image src='/pizza.jpg' alt='pizza' width={1111} height={1111}/>
+        </div> 
 
 
             <div className=' max-w-[470px] py-7 flex flex-col gap-16  px-7'>

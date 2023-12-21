@@ -36,7 +36,7 @@ const Navbar = () => {
             </ul>
         </div>
         <div className=' hidden  lg:flex gap-4'>
-            <Image src='/icons/search.svg' width={30} height={30} alt='search'/>
+             <Image src='/icons/profile.svg' width={30} height={30} alt='menu'/>
             <Image src='/icons/cart.svg' width={30} height={30} alt='search'/>
             <Link href='/register/login'>
                  <Button title='Login' />
@@ -44,8 +44,13 @@ const Navbar = () => {
         </div>
         </div>
 
-        <div onClick={()=> setNav(!nav)} className=' lg:hidden cursor-pointer '>
-        <Image src='/icons/menu.svg' width={30} height={30} alt='menu'/>
+        
+        <div className=' lg:hidden cursor-pointer flex flex-row-reverse items-center gap-3 ' >
+        <div onClick={()=> setNav(!nav)} >
+        <Image src='/icons/menu.svg' width={40} height={30} alt='menu'/>
+        </div>
+        <Image src='/icons/profile.svg' width={30} height={30} alt='menu'/>
+        <Image src='/icons/cart.svg' width={20} height={30} alt='search'/>
         </div>
 
      
@@ -70,7 +75,9 @@ const Navbar = () => {
                     </>
                 ))}
                 <motion.div animate={{opacity:100 }} exit={{opacity:0}} initial={{opacity:0}} transition={{duration:0.3}}>
-                    <Button title='Login' />
+                   <Link href='/register/login'>
+                   <Button title='Login' />
+                   </Link> 
                 </motion.div>
                  
          </motion.div>

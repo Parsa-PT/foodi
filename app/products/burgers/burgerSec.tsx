@@ -1,6 +1,6 @@
 import ProductMaker from '@/components/ProductMaker'
 import React from 'react'
-import { menuItems , SpecialDishes2 } from '@/constants'
+import { menuItems , SpecialBurger } from '@/constants'
 import MenuBar from '@/components/MenuBar'
 
 const Burger = () => {
@@ -8,9 +8,11 @@ const Burger = () => {
     
 
   return (
-    <div>
-      <MenuBar style='burger'/>
-      <ProductMaker data={SpecialDishes2}/>
+    <div id='burger' >
+     
+   
+      <ProductMaker data={SpecialBurger} title='Burger'/>
+
     </div>
   )
 }
