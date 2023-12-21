@@ -318,32 +318,45 @@ export const menuItems = [
     {
         id:1,
         pic:'/icons/burger.svg',
-        title: 'Burgur'
+        title: 'Burgur',
+        href:'/products/burgers',
+        active1: 'burger',
     },
     {
         id:2,
         pic:'/icons/pizza.svg',
-        title: 'Pizza'
+        title: 'Pizza',
+        href:'/products/burger',
+        active2:  'pizza',
     },
     {
         id:3,
         pic:'/icons/sandwich.svg',
-        title: 'Sandwich'
+        title: 'Sandwich',
+        href:'/products/burger',
+        active3:  'sand',
     },
     {
         id:4,
         pic:'/icons/salad.svg',
-        title: 'Salad'
+        title: 'Salad',
+        href:'/products/burger',
+        active4:  'salad',
     },
     {
         id:5,
         pic:'/icons/dessert.svg',
-        title: 'Dessert'
+        title: 'Dessert',
+        href:'/products/burger',
+        active5:  'dessert',
     },
+
     {
         id:6,
         pic:'/icons/drink.svg',
-        title: 'Drink'
+        title: 'Drink',
+        href:'/products/burger',
+        active6:  'drink',
     },
 ]
     

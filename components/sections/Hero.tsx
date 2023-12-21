@@ -17,7 +17,7 @@ const Hero = () => {
                 </p>
 
                 <div className=' flex justify-center items-center gap-5'>
-                    <Link href='/products'>
+                    <Link href='/products/burgers'>
                         <Button title='Order now' style='btnShadow' />
                     </Link>
                     <h1 className=' xl:text-[26px]'>Watch video</h1>
