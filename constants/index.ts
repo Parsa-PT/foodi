@@ -691,3 +691,49 @@ export const cartItems = [
         pic:'/food3.png'
     },
 ]
+
+
+export const userProfile = [
+    {
+        id:1,
+        pic:'/icons/profile.svg'
+    },
+    {
+        id:2,
+        pic:'/icons/vector.svg'
+    },
+    {
+        id:3,
+        pic:'/icons/lock.svg'
+    },
+]
+export const adminProfile = [
+    {
+        id:1,
+        pic:'/icons/profile.svg'
+    },
+    {
+        id:2,
+        pic:'/icons/vector.svg'
+    },
+    {
+        id:3,
+        pic:'/icons/lock.svg'
+    },
+    {
+        id:4,
+        pic:'/icons/users.svg'
+    },
+    {
+        id:5,
+        pic:'/icons/products.svg'
+    },
+    {
+        id:6,
+        pic:'/icons/addproduct.svg'
+    },
+    {
+        id:7,
+        pic:'/icons/orders.svg'
+    },
+]

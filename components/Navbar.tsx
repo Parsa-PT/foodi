@@ -37,7 +37,10 @@ const Navbar = () => {
         </div>
         <div className='   lg:flex gap-4'>
             <div className=' flex justify-center gap-2'>
+            <Link className=' cursor-pointer flex justify-center' href='/profilepage'>
             <Image src='/icons/profile.svg' width={30} height={30} alt='profile'/>
+                    
+            </Link>
              <Link className=' flex justify-center' href='/cart'> 
                  <Image src='/icons/cart.svg' width={30} height={30} alt='cart'/>
              </Link>
