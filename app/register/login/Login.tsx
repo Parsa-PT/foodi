@@ -40,6 +40,8 @@ const Login = () => {
                 
                 <div  onClick={()=> {
                 localStorage.setItem('username', username)
+                // location.assign('/profilepage')
+                location.reload()
               }}>
                     <Button  title='Submit' style=' w-[100px] h-[40px] text-base md:text-xl md:w-[179px] md:h-[60px] '/>
                 </div>

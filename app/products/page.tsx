@@ -8,11 +8,13 @@ import SandwichSec from './sandwich/SandwichSec'
 import SaladSec from './salad/SaladSec'
 import DessertSec from './dessert/DessertSec'
 import DrinkSec from './drink/DrinkSec'
+import UpButton from '@/components/upButton'
 
 const Products = () => {
   return (
     <div>
      <MenuBar style='burger'/>
+     <UpButton/>
       <Burger/>
       <PizzaSec/>
       <SandwichSec/>

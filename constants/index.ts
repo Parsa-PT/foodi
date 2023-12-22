@@ -2,7 +2,7 @@ export const navLink = [
     {
         id:1,
         title:'Home',
-        href:'#home'
+        href:'/'
     },
     {
         id:2,
@@ -700,7 +700,7 @@ export const userProfile = [
     },
     {
         id:2,
-        pic:'/icons/vector.svg'
+        pic:'/icons/like.svg'
     },
     {
         id:3,
@@ -710,30 +710,38 @@ export const userProfile = [
 export const adminProfile = [
     {
         id:1,
-        pic:'/icons/profile.svg'
+        pic:'/icons/profile.svg',
+        href:'/profilepage'
     },
     {
         id:2,
-        pic:'/icons/vector.svg'
+        pic:'/icons/like.svg',
+        href:'/profilepage/profilesections/users'
     },
     {
         id:3,
-        pic:'/icons/lock.svg'
+        pic:'/icons/lock.svg',
+        href:'/profilepage/profilesections/users'
     },
     {
         id:4,
-        pic:'/icons/users.svg'
+        pic:'/icons/users.svg',
+        href:'/profilepage/profilesections/users'
     },
     {
         id:5,
-        pic:'/icons/products.svg'
+        pic:'/icons/products.svg',
+        href:'/profilepage/profilesections/allproducts'
     },
     {
         id:6,
-        pic:'/icons/addproduct.svg'
+        pic:'/icons/addproduct.svg',
+        href:'/profilepage/profilesections/users'
     },
     {
         id:7,
-        pic:'/icons/orders.svg'
+        pic:'/icons/orders.svg',
+        href:'/profilepage/profilesections/users'
     },
 ]
+
