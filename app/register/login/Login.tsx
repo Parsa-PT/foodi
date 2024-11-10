@@ -38,10 +38,12 @@ const Login = () => {
                  <input onChange={(e)=> setPassword(e.target.value)}  value={password}  className=' w-full h-9 text-black outline-none pl-1 bg-[#CCFFC4]' type="text" name="username" id="username" />
                  </div>
                 
-                <div  onClick={()=> {
+                <div  onClick={(e)=> {
                 localStorage.setItem('username', username)
-                // location.assign('/profilepage')
-                location.reload()
+                location.assign('/profilepage')
+                e.preventDefault()
+                // location.assign('/')
+                
               }}>
                     <Button  title='Submit' style=' w-[100px] h-[40px] text-base md:text-xl md:w-[179px] md:h-[60px] '/>
                 </div>

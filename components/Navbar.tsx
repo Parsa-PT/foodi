@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useEffect } from "react";
 import Image from "next/image";
 import Button from "./Button";
 import { navLink } from "@/constants";
@@ -11,13 +11,22 @@ import Link from "next/link";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
-  const userinfo = window.localStorage.getItem("username");
+  const [userinfo, setNavData] = useState<any | null>('');
+  
+
+  useEffect(() =>{
+    const userinfo = localStorage.getItem("username") 
+
+     setNavData(userinfo)
+
+  },[])
 
   return (
     <div>
       <nav className=" flex  justify-center py-3 px-6 ">
         <div className=" w-full lg:max-w-[1080px] xl:max-w-[1420px] flex justify-between items-center ">
           <div
+
             className=" cursor-pointer"
             onClick={() => {
               window.location.assign("/");
@@ -84,6 +93,7 @@ const Navbar = () => {
         <Image src='/icons/cart.svg' width={20} height={30} alt='search'/> */}
         </div>
       </nav>
+
 
       <AnimatePresence>
         {nav && (

@@ -14,7 +14,6 @@ const Products = () => {
   return (
     <div>
      <MenuBar style='burger'/>
-     <UpButton/>
       <Burger/>
       <PizzaSec/>
       <SandwichSec/>

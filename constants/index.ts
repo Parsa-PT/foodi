@@ -624,7 +624,7 @@ export const menuItems = [
     {
         id:1,
         pic:'/icons/burger.svg',
-        title: 'Burgur',
+        title: 'Burger',
         href:'#burger',
         active1: 'burger',
     },
@@ -741,7 +741,7 @@ export const adminProfile = [
     {
         id:7,
         pic:'/icons/orders.svg',
-        href:'/profilepage/profilesections/users'
+        href:'/profilepage/profilesections/orders'
     },
 ]
 

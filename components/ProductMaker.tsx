@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-
+import Link from 'next/link'
 
 
 
@@ -16,21 +16,23 @@ const ProductMaker = ({data , title} : any) => {
         </div>
 
                 
-            <div className='w-full   flex justify-center '>
-            <div className='  w-full gap-x-[7rem] py-[5rem]  px-[2rem] sm:px-0   flex  hide-scrollbar overflow-x-auto sm:overflow-visible  sm:grid   sm:grid-cols-2 2xl:grid-cols-5  lg:grid-cols-3   xl:grid-cols-4  justify-self-center  self-center     sm:gap-[4rem] '>
+            <div className='w-full   flex justify-center  sm:grid sm:justify-self-center  sm:self-center  '>
+            <div className='  w-full gap-x-[7rem] py-[5rem]  px-[2rem] sm:px-0   flex  hide-scrollbar overflow-x-auto sm:overflow-visible  sm:grid   sm:grid-cols-2 md:grid-cols-3 2xl:grid-cols-5  lg:grid-cols-3   xl:grid-cols-4      sm:gap-[4rem] '>
               {data.map((item : any) =>(
-                    <div className=' relative w-[292px]  whitespace-nowrap   px-[1.5rem]  sm:px-4 2xl:px-[2rem] pt-4 2xl:pt-7 h-[343px]  flex flex-col items-center gap-7  dropShadow bg-white rounded-[40px] '>
-                    <Image src={item.pic} className='  w-[10rem]' width={1212} height={1212} alt='food'/>
+                    <div className=' relative sm:w-[262px] w-[292px] md:w-[232px] lg:w-[292px]  whitespace-nowrap   px-[1.5rem]  sm:px-4 2xl:px-[2rem] pt-4 2xl:pt-7 h-[343px]  flex flex-col items-center gap-7  dropShadow bg-white rounded-[40px] '>
+                      <Link href='/productpage'>
+                            <Image src={item.pic} className='  w-[10rem]' width={1212} height={1212} alt='food'/>
+                      </Link>
                     <div className=' flex flex-col gap-3 items-start w-full '>
                     <h1 className='  sm:text-xl  font-bold'>{item.title}</h1>
                     <p className=''>{item.desc}</p>
                     </div>
                     <div className=' flex  justify-between w-full'>
-                        <p className=' '><span className='text-red-500 '>$</span>{item.price}</p>
+                        <p><span className='text-red-500 '>$</span>{item.price}</p>
                         <div className=' flex  gap-2'>
                          
                         <Image  src='/icons/starfull.svg' alt='star' width={20} height={20}/>
-                        <p className=' '>{item.vote}</p>   
+                        <p>{item.vote}</p>   
                         </div>
                     </div>
 
