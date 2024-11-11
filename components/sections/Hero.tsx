@@ -31,7 +31,7 @@ const Hero = () => {
 
             <div>
                 <div className=' relative w-[326px] h-[316px] lg:w-[462px] lg:h-[452px] xl:w-[562px] xl:h-[552px] 2xl:h-[662px] 2xl:w-[652px] rounded-full bg-btnColor'>
-                    <Image src='/intersect.png' alt='woman' width={1100} height={1100} className=' absolute -bottom-1 right-[0.77rem]'/>
+                    <Image src='/intersect.png' alt='woman' width={110} height={0} className='w-[40rem] absolute -bottom-1 right-[0.77rem]'/>
                     <div className=' relative'>
                     <Image src='/coment.png' className=' absolute w-[148px] lg:w-[248px] -left-10' width={1100} height={1100} alt='coment' />
                     <p className='text-[10px] text-red-500 lg:text-base absolute -bottom-[2rem] -left-5 lg:-left-0 lg:-bottom-[3.3rem]'>Hot spicy Food 🌶</p>
