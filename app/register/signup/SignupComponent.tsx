@@ -63,7 +63,7 @@ const SignupComponent = () => {
               </label>
               <input
                 className=" w-full h-9 text-black outline-none pl-1 bg-[#CCFFC4]"
-                type="text"
+                type="password"
                 name="username"
                 id="username"
               />

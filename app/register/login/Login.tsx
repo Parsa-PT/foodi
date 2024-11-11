@@ -35,7 +35,7 @@ const Login = () => {
                  </div>
                  <div>
                  <label className=' text-white' htmlFor="password">Password</label>
-                 <input onChange={(e)=> setPassword(e.target.value)}  value={password}  className=' w-full h-9 text-black outline-none pl-1 bg-[#CCFFC4]' type="text" name="username" id="username" />
+                 <input type="password" onChange={(e)=> setPassword(e.target.value)}  value={password}  className=' w-full h-9 text-black outline-none pl-1 bg-[#CCFFC4]'  name="username" id="username" />
                  </div>
                 
                 <div  onClick={(e)=> {

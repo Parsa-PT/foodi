@@ -10,7 +10,7 @@ type MenuBarProp = {
 const MenuBar = ({style} : MenuBarProp) => {
   return (
     <div className=' flex flex-col items-center justify-center pt-[1rem] lg:pt-[4rem]'>
-      <div className=' hide-scrollbar  w-full  overflow-x-auto gap-8  md:w-full pl-[70%] md:pl-0 flex justify-center  '>   
+      <div className=' hide-scrollbar  w-full  overflow-x-auto  overflow-y-hidden gap-8  md:w-full pl-[70%] md:pl-0 flex justify-center  '>   
                {menuItems.map((item) =>(
                        <div key={item.id} className={` w-[87px]  h-[87px] transition-all ease-in duration-75  hover:bg-[#CDFBC2]   md:w-[178px] md:h-[170px] rounded-t-full `}>
                         <a className='flex flex-col items-center pt-4  gap-5' href={item.href}>

@@ -116,6 +116,7 @@ const Navbar = () => {
                     className=" text-2xl flex transition-all ease-in duration-75 hover:text-green-200 bold-20 text-black flexCenter cursor-pointer pb-1.5 lg:transition-all hover:font-bold"
                     key={item.id}
                     href={item.href}
+                 
                   >
                     {item.title}
                   </Link>
