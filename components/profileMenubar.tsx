@@ -1,11 +1,18 @@
 "use client";
-import React from "react";
+import React, { useEffect , useState } from "react";
 import Image from "next/image";
 import { userProfile, adminProfile } from "@/constants";
 import Link from "next/link";
 
 const ProfileMenubar = () => {
-  const userinfo = window.localStorage.getItem("username");
+  const [userinfo, setNavData] = useState<any | null>('');
+
+  useEffect(() =>{
+    const userinfo = localStorage.getItem("username") 
+
+     setNavData(userinfo)
+
+  },[])
   return (
     <div>
       <div className=" flex lg:flex-col">
